@@ -1,2 +1,2 @@
 link git:
-https://github.com/RaphaelGMoreira/appReceitas.git
+git@github.com/RaphaelGMoreira/typescriptsolid.git

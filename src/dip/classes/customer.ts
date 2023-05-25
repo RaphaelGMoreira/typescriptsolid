@@ -1,3 +1,4 @@
+import { get } from 'http';
 import {
   EnterpriseCustomerProtocol,
   IndividualCustomerProtocol,
@@ -16,9 +17,11 @@ export class IndividualCustomer
     this.lastName = lastName;
     this.cpf = cpf;
   }
+
   getName(): string {
     return this.firstName + ' ' + this.lastName;
   }
+
   getIDN(): string {
     return this.cpf;
   }
@@ -34,9 +37,11 @@ export class EnterpriseCustomer
     this.name = name;
     this.cnpj = cnpj;
   }
+
   getName(): string {
     return this.name;
   }
+
   getIDN(): string {
     return this.cnpj;
   }
